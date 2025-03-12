@@ -1,4 +1,3 @@
 package org.example;
 
-public class InsufficientStockException extends Exception{
-}
+public class InsufficientStockException extends Exception {}

@@ -1,4 +1,3 @@
 package org.example;
 
-public class UnknownProductException extends Exception{
-}
+public class UnknownProductException extends Exception {}

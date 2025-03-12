@@ -52,6 +52,9 @@ public class StockManagerTest {
         assertThrows(UnknownProductException.class,
                 () -> stockManager.hasStock("UNKNOWN_PRODUCT")
         );
+        assertThrows(UnknownProductException.class,
+                () -> stockManager.destock("UNKNOWN_PRODUCT")
+        );
     }
 
     @Test
@@ -92,5 +95,16 @@ public class StockManagerTest {
             stockManager.destock("PRODUCT2", 1);
         });
     }
+
+    @Test
+    void testRestock(){
+        fail("Not yet implemented");
+    }
+
+    @Test
+    void testNRestock(){
+        fail("Not yet implemented");
+    }
+
 
 }
